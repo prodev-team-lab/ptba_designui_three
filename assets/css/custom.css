@@ -787,7 +787,8 @@ hr {
     padding: 2rem;
     overflow: hidden;
     border-radius: 10px;
-    aspect-ratio: 21 / 9;
+    height: 150px;
+    /* aspect-ratio: 21 / 9; */
     /* Rasio aspek 16:9 */
 }
 
