@@ -776,3 +776,54 @@ hr {
     color: #ffcc00;
     /* Kuning untuk efek hover */
 }
+
+.custom-offer-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    overflow: hidden;
+    border-radius: 10px;
+    aspect-ratio: 21 / 9;
+    /* Rasio aspek 16:9 */
+}
+
+
+.custom-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-text {
+    z-index: 1;
+    position: relative;
+    color: #FFF;
+}
+
+.custom-hover-light {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+    transition: left 0.4s ease-in-out;
+    z-index: 0;
+}
+
+.custom-offer-box:hover .custom-bg-img {
+    transform: scale(1.1);
+}
+
+.custom-offer-box:hover .custom-hover-light {
+    left: 100%;
+}
