@@ -54380,6 +54380,12 @@ select.form-control.has-value {
     margin-right: 0;
   }
 
+  .navbar-expand-xl .mega-menu-wrap {
+    padding: 2.5rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   /* line 833, src/assets/scss/custom/_style.scss */
   .navbar-expand-md .main-navbar-nav .sub-menu-nav-group .sub-menu-nav-link {
     padding-left: 0;
