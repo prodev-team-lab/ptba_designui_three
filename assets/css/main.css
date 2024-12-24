@@ -57935,7 +57935,8 @@ section {
 /* line 3687, src/assets/scss/custom/_style.scss */
 .post-preview {
   padding-bottom: 5px;
-  border-radius: .1875rem;
+  border-radius: 16px;
+  /* border-radius: .1875rem; */
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
