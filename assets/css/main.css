@@ -9231,41 +9231,45 @@ button.bg-dark:hover {
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-sm {
-  border-radius: 0.2rem !important;
+  border-radius: 0.75rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 1rem !important;
+}
+
+.rounded-md {
+  border-radius: 1.25rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important;
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-right {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important;
+  border-top-right-radius: 0.75rem !important;
+  border-bottom-right-radius: 0.75rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.75rem !important;
+  border-bottom-left-radius: 0.75rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-left {
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 0.75rem !important;
+  border-bottom-left-radius: 0.75rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
 .rounded-lg {
-  border-radius: 0.3rem !important;
+  border-radius: 1.5rem !important;
 }
 
 /* line 6, src/assets/scss/vendors/bootstrap.min.css */
@@ -58274,7 +58278,8 @@ button,
 
 /* line 3917, src/assets/scss/custom/_style.scss */
 .widget a {
-  color: #788487;
+  color: #0d1536;
+  /* color: #788487; */
   display: block;
   font-size: 14px;
 }
