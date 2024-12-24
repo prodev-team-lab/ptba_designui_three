@@ -54895,6 +54895,7 @@ svg.promo-bg {
 /* line 1275, src/assets/scss/custom/_style.scss */
 .hero-equal-height {
   position: relative;
+  min-height: 360px;
   -js-display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54906,8 +54907,9 @@ svg.promo-bg {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  border-radius: 16px;
 }
 
 /*hero default*/
